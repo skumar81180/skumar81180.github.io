@@ -33,6 +33,12 @@ div.main {
     width: 100%;
 }
 
+div.main {
+    background-image: url(/assets/images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 [class*="fontawesome-"]:before {
     font-family: 'FontAwesome', sans-serif;
 }
@@ -122,6 +128,7 @@ p {
 }
 
 .logo {
+    background-color: transparent;
     margin-left: 20px;
     margin-bottom: 20px;
     justify-items: center;
