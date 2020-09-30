@@ -167,7 +167,7 @@ video {
     height: auto;
 } */
 
-.signinbtn {
+/* .signinbtn {
     text-decoration: none;
     background-color: rgb(91, 213, 243);
     color: rgb(0, 0, 0);
@@ -183,7 +183,7 @@ video {
     color: rgb(255, 255, 255);
     background-color: rgb(7, 107, 3);
     transition: 0.2s ease-in-out;
-}
+} */
 
 #login form span.fa {
     content: "\f007";

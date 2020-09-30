@@ -9,13 +9,17 @@
 </head>
 
 <body>
-
-    <video width="100%" autoplay>
+    <video id="introvideo" width="100%" autoplay>
         <source src="/assets/media/video/intro.mp4" type="video/mp4">
         <source src="/assets/media/video/intro.webm" type="video/webm">
         Your browser does not support the HTML5 Video element.
     </video>
-
+    <script type="text/javascript">
+        var video = document.getElementById('introvideo');
+        video.addEventListener('ended', function () {
+            location.href = '../index.html';
+        });
+    </script>
 </body>
 
 </html>
