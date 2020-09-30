@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GDD V1.0</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -20,6 +20,12 @@
     <link rel="stylesheet" href="/assets/css/login.css">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/0b819e081f.js" crossorigin="anonymous"></script>
+
+    <script>
+        function introOnClick(event) {
+            var btn = document.getElementB
+        }
+    </script>
 </head>
 
 <body>
@@ -59,10 +65,16 @@
                                                 <span
                                                     style="width:48%; text-align:left; display: inline-block;line-height: 0.8em; vertical-align: middle;"><a
                                                         class="fp" href="#">Forgot
-                                                        password?</a></span>
+                                                        password?</a>
+                                                </span>
+                                                <!-- <span
+                                                    style="width:50%; margin-bottom: 8px; margin-top: 5px; text-align:right; display: inline-block;"><a
+                                                        href="/pages/intro.html" class="signinbtn"">Sign In</a>
+                                                </span> -->
                                                 <span
-                                                    style="width:50%; text-align:right;  display: inline-block;"><input
-                                                        type="submit" value="Sign In"></span>
+                                                    style=" width:50%; text-align:right; display: inline-block;"><input
+                                                        type="submit" onclick="location.href='/pages/intro.html';"
+                                                        value="Sign In"></span>
                                             </div>
 
                                         </fieldset>
@@ -92,13 +104,17 @@
                                             </p> <!-- JS because of IE support; better: placeholder="Password" -->
 
                                             <div>
+                                                <!-- <span
+                                                    style="width:100%; margin-bottom: 8px; margin-top: 5px;text-align:right; display: inline-block;"><a
+                                                        class="signinbtn"">Sign Up</a>
+                                                </span> -->
                                                 <span
-                                                    style="width:100%; text-align:right;  display: inline-block;"><input
-                                                        type="submit" value="Sign Up"></span>
+                                                    style=" width:100%; text-align:right; display: inline-block;"><input
+                                                        type="submit" onclick="" value="Sign Up"></span>
                                             </div>
 
                                         </fieldset>
-                                        <div class="clearfix"></div>
+                                        <div class=" clearfix"></div>
                                     </form>
 
                                     <div class="clearfix"></div>
@@ -112,7 +128,7 @@
                     <div class="logo">
                         <object style="background-color: transparent;" data="/assets/images/gddlogo.svg"
                             type="image/svg+xml"></object>
-                        <div class="clearfix"></div>
+
                     </div>
                 </div>
             </center>
