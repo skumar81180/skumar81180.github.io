@@ -159,32 +159,6 @@ video {
     height: 100%;
 }
 
-/* video {
-    object-fit: cover;
-    align-self: center;
-    justify-self: center;
-    width: 99vh;
-    height: auto;
-} */
-
-/* .signinbtn {
-    text-decoration: none;
-    background-color: rgb(91, 213, 243);
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1em;
-    font-weight: bold;
-}
-
-.signinbtn:hover {
-    cursor: pointer;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: rgb(7, 107, 3);
-    transition: 0.2s ease-in-out;
-} */
-
 #login form span.fa {
     content: "\f007";
     background-color: #fff;
