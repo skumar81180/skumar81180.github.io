@@ -1,0 +1,126 @@
+div.homepagemain {
+    background-image: url(/assets/images/homepage_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-size: contain; */
+    height: calc(100vh);
+    width: 100%;
+
+}
+
+div.characters {
+    text-align: center;
+    display: table-cell;
+    height: calc(100vh);
+    vertical-align: middle;
+
+}
+
+
+div.characters img {
+    width: 250px;
+}
+
+#circulerLogo {
+    width: 290px;
+    height: 290px;
+}
+
+#classMenu {
+    width: 350px;
+    height: 300px;
+}
+
+svg g g .inner_content:hover {
+    background-color: red;
+}
+
+#margin20 {
+    margin: 10px;
+}
+
+#outter_content {
+    animation: rotate 25s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+#plank0 {
+    transform-origin: center;
+
+}
+
+#plank1 {
+    transform-origin: center;
+
+}
+
+#plank2 {
+    transform-origin: center;
+
+}
+
+#plank3 {
+    transform-origin: center;
+
+}
+
+#plank4 {
+    transform-origin: center;
+
+}
+
+#plank5 {
+    transform-origin: center;
+
+}
+
+#plank6 {
+    transform-origin: center;
+
+}
+
+#plank0:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+#plank1:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#plank2:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#plank3:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+#plank4:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#plank5:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#plank6:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
