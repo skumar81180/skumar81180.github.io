@@ -2,24 +2,14 @@ div.homepagemain {
     background-image: url(/assets/images/homepage_bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
-    /* background-size: contain; */
     height: calc(100vh);
     width: 100%;
 
 }
 
-div.characters {
-    text-align: center;
-    display: table-cell;
-    height: calc(100vh);
-    vertical-align: middle;
-
-}
-
-
-div.characters img {
-    width: 250px;
+.container-fluid {
+    min-height: 100%;
+    height: 100%;
 }
 
 #circulerLogo {
@@ -32,16 +22,27 @@ div.characters img {
     height: 300px;
 }
 
-svg g g .inner_content:hover {
-    background-color: red;
+#characters {
+    position: relative;
+    top: 60px;
+    width: 250px;
 }
 
-#margin20 {
-    margin: 10px;
+.topBanner {
+    width: 400px;
+}
+
+.bottomBanner {
+    width: 700px;
+}
+
+.fullwidth {
+    width: 100%;
+    text-align: center;
 }
 
 #outter_content {
-    animation: rotate 25s linear infinite;
+    animation: rotate 22s linear infinite;
     transform-origin: center;
 }
 
