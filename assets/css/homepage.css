@@ -12,8 +12,8 @@ div.homepagemain {
 }
 
 #circulerLogo {
-    width: 290px;
-    height: 290px;
+    width: 320px;
+    height: 320px;
 }
 
 #classMenu {
@@ -24,7 +24,7 @@ div.homepagemain {
 #characters {
     position: relative;
     top: 60px;
-    width: 250px;
+    width: 290px;
 }
 
 .topBanner {

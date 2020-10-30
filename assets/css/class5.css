@@ -1,0 +1,27 @@
+div.homepagemain {
+    background-image: url(/assets/images/subjecthome_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh);
+    width: 100%;
+
+}
+
+.container-fluid {
+    height: 100vh;
+
+}
+
+.row {
+    height: calc(100vh/3);
+}
+
+.col {
+    width: calc(100vw/3);
+    text-align: center;
+}
+
+.col img {
+    margin: 0px;
+    bottom: -0px;
+}
