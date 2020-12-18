@@ -1,4 +1,5 @@
-div.homepagemain {
+.homepagemain {
+    display: flex;
     background-image: url(/assets/images/subjecthome_bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,4 +25,8 @@ div.homepagemain {
 .col img {
     margin: 0px;
     bottom: -0px;
+}
+
+.englishSvg:hover {
+    cursor: pointer;
 }
